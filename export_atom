@@ -1,7 +1,6 @@
 #!/bin/bash
 cp -r ~/.atom/packages/ ~/AtomPresets/
 cp -r ~/.atom/config.cson ~/AtomPresets/
-cd ~
 cd ~/AtomPresets/
 git add .
 git commit -am "Export"
